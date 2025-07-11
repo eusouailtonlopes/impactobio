@@ -1,5 +1,5 @@
-const CACHE_NAME = "impactabio-v1";
-const urlsToCache = ["index.html", "style.css", "icon-192.png"];
+const CACHE_NAME = "impactabio-v2";
+const urlsToCache = ["index.html", "style.css"];
 
 self.addEventListener("install", event => {
   event.waitUntil(
