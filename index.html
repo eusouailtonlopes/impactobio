@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ImpactaBio</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#00c897"/>
+  <link rel="icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ImpactaBio</h1>
+    <p>O Link da Bio que Transforma Visual em Conversão</p>
+  </header>
+  <main>
+    <section>
+      <h2>✅ 50 Modelos de Página "Link da Bio"</h2>
+      <p>Editáveis no Canva gratuito, prontos para Instagram, TikTok, YouTube ou WhatsApp.</p>
+    </section>
+    <button onclick="alert('Veja os modelos agora!')">Quero acessar</button>
+  </main>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log("SW registrado com sucesso"))
+        .catch(err => console.log("Erro no SW:", err));
+    }
+  </script>
+</body>
+</html>
