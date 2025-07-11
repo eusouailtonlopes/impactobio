@@ -1,7 +1,7 @@
 {
   "name": "ImpactaBio",
   "short_name": "ImpactaBio",
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#00c897",
